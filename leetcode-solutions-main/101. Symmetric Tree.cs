@@ -1,9 +1,3 @@
-/*
-Topic : Depth first search
-Time complexity : O(N) where n = num of nodes
-Space complexity : O(N)
-*/
-
 public class Solution
 {
     public bool IsSymmetric(TreeNode root)
