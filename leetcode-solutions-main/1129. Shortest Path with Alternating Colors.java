@@ -1,11 +1,3 @@
-/*
-problem link : https://leetcode.com/problems/shortest-path-with-alternating-colors/
-
-time complexity : O(N*E) where N = number of nodes , E = number of edges for each node
-
-memory complexity : O(N*E)
-
-*/
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Hashtable;
