@@ -1,2 +1,2 @@
 # Problem-Solving
-My solved problems on online judges
+This repository contains source codes for some problems I have solved on online judges.
