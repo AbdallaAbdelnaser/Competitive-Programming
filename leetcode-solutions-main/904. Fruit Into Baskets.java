@@ -1,10 +1,3 @@
-/**
- * sliding window problem 
- * problem link : https://leetcode.com/problems/fruit-into-baskets/
- * time complexity : O(N)
- * space complexity : O(1)
- */
-
 class Solution {
 	public int totalFruit(int[] fruits) {
 
