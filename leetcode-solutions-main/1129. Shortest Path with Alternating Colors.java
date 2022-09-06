@@ -4,7 +4,6 @@ import java.util.Hashtable;
 import java.util.LinkedList;
 
 public class Solution {
-	// N * E
 	public int[] shortestAlternatingPaths(int n, int[][] redEdges, int[][] blueEdges) {
 
 		// Initialization
