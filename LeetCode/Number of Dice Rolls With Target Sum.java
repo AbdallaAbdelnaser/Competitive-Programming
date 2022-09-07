@@ -26,9 +26,9 @@ class Solution {
 			return memo[n][sum];
 
 		memo[n][sum] = 0;
-		for (int i = 1; i <= k; i++)
 
-			memo[n][sum] = (memo[n][sum]+(doMemo(n - 1, sum + i) % 1000000007)) % 1000000007;
+		for (int i = 1; i <= k; i++)
+			memo[n][sum] = (memo[n][sum] + (doMemo(n - 1, sum + i) % 1000000007)) % 1000000007;
 
 		return memo[n][sum];
 	}
