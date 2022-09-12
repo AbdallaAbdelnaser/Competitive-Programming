@@ -8,7 +8,7 @@ class Solution {
 
 	private boolean backTrack(long last, int j) {
 
-		if (j == s.length()) // found it
+		if (j == s.length()) // can split s
 			return true;
 
 		long cur = 0l;
