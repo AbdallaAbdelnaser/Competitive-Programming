@@ -17,7 +17,7 @@ public class Main {
 		StringBuilder sb = new StringBuilder();
 		while ((s1 = in.nextLine()) != null) { //O(n*m)
 			s2 = in.next();
-			if (s1.equals("0") || s2.equals("0")) // special case
+			if (s1.equals("0") || s2.equals("0")) // special case 
 			{
 				out.println(0);
 				continue;
@@ -39,7 +39,7 @@ public class Main {
 						rem = sum / 10;
 					}
 					if (rem > 0) {
-						sb.replace(0, 0, rem + "");
+						sb.insert(0, rem);
 						rem = 0;
 					}
 				}
